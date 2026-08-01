@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Andrea Olivar | Culinary Portfolio</title>
+    <meta
+      name="description"
+      content="Portafolio culinario de Andrea Olivar, estudiante de gastronomía con enfoque en cocina peruana, repostería y presentación elegante."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#home">AO</a>
+      <nav class="site-nav" aria-label="Navegación principal">
+        <a href="#home">Home</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero section-shell">
+        <div class="hero-content">
+          <p class="eyebrow">Chef en formación</p>
+          <h1>Andrea Olivar</h1>
+          <p class="hero-copy">
+            La cocina es una forma de expresar creatividad, disciplina y pasión por los detalles.
+          </p>
+          <a class="button primary" href="#portfolio">Ver portafolio</a>
+        </div>
+      </section>
+
+      <section id="about" class="section-shell about-section">
+        <div class="about-media">
+          <img
+            src="./andrea-olivar.jpeg"
+            alt="Andrea Olivar en la cocina"
+          />
+        </div>
+        <div class="about-content">
+          <p class="eyebrow">Sobre Andrea</p>
+          <h2>Soy estudiante de gastronomía apasionada por la cocina peruana e internacional.</h2>
+          <p>
+            Me interesa convertir ingredientes simples en experiencias memorables, cuidando cada detalle desde la técnica hasta la presentación en plato.
+          </p>
+          <ul class="pill-list">
+            <li>❤ Creatividad</li>
+            <li>🔪 Técnica</li>
+            <li>🌿 Ingredientes frescos</li>
+            <li>✨ Presentación</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section-shell philosophy-section">
+        <p class="quote">“Cada plato cuenta una historia.”</p>
+        <p>
+          Mi objetivo es ofrecer experiencias gastronómicas donde el sabor, la técnica y la presentación estén en equilibrio.
+        </p>
+      </section>
+
+      <section class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Especialidades</p>
+          <h2>Exploro distintas áreas de la cocina con sensibilidad y rigor.</h2>
+        </div>
+        <div class="specialties-grid">
+          <article class="card specialty-card">
+            <div class="card-icon">🍽</div>
+            <h3>Cocina Peruana</h3>
+          </article>
+          <article class="card specialty-card">
+            <div class="card-icon">🍰</div>
+            <h3>Repostería</h3>
+          </article>
+          <article class="card specialty-card">
+            <div class="card-icon">🥐</div>
+            <h3>Panadería</h3>
+          </article>
+          <article class="card specialty-card">
+            <div class="card-icon">🐟</div>
+            <h3>Cocina Marina</h3>
+          </article>
+          <article class="card specialty-card">
+            <div class="card-icon">🍝</div>
+            <h3>Cocina Italiana</h3>
+          </article>
+          <article class="card specialty-card">
+            <div class="card-icon">🥗</div>
+            <h3>Ensaladas</h3>
+          </article>
+        </div>
+      </section>
+
+      <section id="portfolio" class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Platos destacados</p>
+          <h2>Creaciones culinarias con identidad propia.</h2>
+        </div>
+        <div class="portfolio-grid">
+          <article class="card dish-card">
+            <img src="./images/lomo-saltado.svg" alt="Lomo saltado clásico" />
+            <div class="card-body">
+              <h3>Lomo Saltado</h3>
+              <p>Clásico peruano reinterpretado con un toque contemporáneo.</p>
+              <button class="button ghost" data-dish="lomo">Ver detalle</button>
+            </div>
+          </article>
+          <article class="card dish-card">
+            <img src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&fit=crop&w=800&q=80" alt="Risotto" />
+            <div class="card-body">
+              <h3>Risotto</h3>
+              <p>Textura cremosa, profundidad de sabor e inspiración italiana.</p>
+              <button class="button ghost" data-dish="risotto">Ver detalle</button>
+            </div>
+          </article>
+          <article class="card dish-card">
+            <img src="./images/tiramisu.jpg" alt="Tiramisú" />
+            <div class="card-body">
+              <h3>Tiramisú</h3>
+              <p>Una propuesta elegante donde la dulzura se equilibra con el café.</p>
+              <button class="button ghost" data-dish="tiramisu">Ver detalle</button>
+            </div>
+          </article>
+          <article class="card dish-card">
+            <img src="https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&w=800&q=80" alt="Ceviche" />
+            <div class="card-body">
+              <h3>Ceviche</h3>
+              <p>Frescura, cítricos y una presentación cuidada en cada plato.</p>
+              <button class="button ghost" data-dish="ceviche">Ver detalle</button>
+            </div>
+          </article>
+          <article class="card dish-card">
+            <img src="https://images.unsplash.com/photo-1621996346565-e3dbc646d9a9?auto=format&fit=crop&w=800&q=80" alt="Pasta fresca" />
+            <div class="card-body">
+              <h3>Pasta Fresca</h3>
+              <p>Trabajo manual y sabores intensos con una base sencilla.</p>
+              <button class="button ghost" data-dish="pasta">Ver detalle</button>
+            </div>
+          </article>
+          <article class="card dish-card">
+            <img src="https://images.unsplash.com/photo-1539136788836-5699e78bfc75?auto=format&fit=crop&w=800&q=80" alt="Arroz con mariscos" />
+            <div class="card-body">
+              <h3>Arroz con Mariscos</h3>
+              <p>Un plato que une textura, profundidad y marineidad.</p>
+              <button class="button ghost" data-dish="mariscos">Ver detalle</button>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell evolution-section">
+        <div class="section-heading">
+          <p class="eyebrow">Mi evolución culinaria</p>
+          <h2>Un recorrido visible de mi crecimiento como estudiante de cocina.</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <span>2025</span>
+            <h3>Primeros cortes</h3>
+            <p>Aprendí técnica básica, orden y disciplina en la cocina.</p>
+          </article>
+          <article class="timeline-item">
+            <span>2025</span>
+            <h3>Primeras salsas</h3>
+            <p>Profundicé en sabores, reducción y equilibrio de texturas.</p>
+          </article>
+          <article class="timeline-item">
+            <span>2026</span>
+            <h3>Primeros emplatados</h3>
+            <p>Comencé a pensar en la estética como parte esencial del plato.</p>
+          </article>
+          <article class="timeline-item">
+            <span>2026</span>
+            <h3>Proyectos finales</h3>
+            <p>Integro técnica, creatividad y una mirada más personal en mis creaciones.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Estudios</p>
+          <h2>Formación académica y práctica.</h2>
+        </div>
+        <div class="timeline studies-list">
+          <article class="timeline-item">
+            <span>2025</span>
+            <h3>Inicio Gastronomía</h3>
+          </article>
+          <article class="timeline-item">
+            <span>2025</span>
+            <h3>Cocina Peruana</h3>
+          </article>
+          <article class="timeline-item">
+            <span>2026</span>
+            <h3>Cocina Internacional</h3>
+          </article>
+          <article class="timeline-item">
+            <span>2026</span>
+            <h3>Pastelería</h3>
+          </article>
+          <article class="timeline-item">
+            <span>2026</span>
+            <h3>Prácticas</h3>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell">
+        <div class="section-heading">
+          <p class="eyebrow">Certificaciones</p>
+          <h2>Competencias adquiridas en seguridad y servicio.</h2>
+        </div>
+        <div class="certifications-grid">
+          <article class="card cert-card">
+            <h3>BPM</h3>
+            <p>Buenas prácticas de manufactura.</p>
+          </article>
+          <article class="card cert-card">
+            <h3>Manipulación de alimentos</h3>
+            <p>Normas de higiene y manejo seguro.</p>
+          </article>
+          <article class="card cert-card">
+            <h3>Seguridad alimentaria</h3>
+            <p>Prevención de riesgos y control sanitario.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section-shell instagram-section">
+        <div class="section-heading">
+          <p class="eyebrow">Instagram</p>
+          <h2>Sígueme en Instagram para ver más procesos y creaciones.</h2>
+        </div>
+        <div class="instagram-grid">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=500&q=80" alt="Detalle de cocina" />
+          <img src="https://images.unsplash.com/photo-1482049016688-2d3e1b311543?auto=format&fit=crop&w=500&q=80" alt="Plato en preparación" />
+          <img src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?auto=format&fit=crop&w=500&q=80" alt="Postre presentado" />
+          <img src="https://images.unsplash.com/photo-1498654896293-37aacf113fd9?auto=format&fit=crop&w=500&q=80" alt="Mesa de cocina" />
+          <img src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=500&q=80" alt="Plato principal" />
+          <img src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=500&q=80" alt="Plato servido" />
+        </div>
+        <a class="social-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">@andreaolivarchef</a>
+      </section>
+
+      <section id="contact" class="section-shell contact-section">
+        <div class="section-heading">
+          <p class="eyebrow">Contacto</p>
+          <h2>Trabajemos juntos para crear experiencias culinarias memorables.</h2>
+        </div>
+        <div class="contact-cards">
+          <a href="mailto:correo@email.com">📧 correo@email.com</a>
+          <a href="https://wa.me/51999999999" target="_blank" rel="noreferrer">📱 WhatsApp</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">💼 LinkedIn</a>
+          <a href="https://www.instagram.com/" target="_blank" rel="noreferrer">📸 Instagram</a>
+        </div>
+        <a class="button primary" href="./cv-andrea-olivar.pdf" download="CV-Andrea-Olivar.pdf">Descargar CV</a>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>AO</p>
+      <p>Andrea Olivar</p>
+      <p>Culinary Portfolio</p>
+      <p>© 2026</p>
+    </footer>
+
+    <div class="modal" id="dishModal" aria-hidden="true">
+      <div class="modal-card" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" aria-label="Cerrar">×</button>
+        <h3 id="modalTitle"></h3>
+        <p id="modalCategory"></p>
+        <p id="modalTime"></p>
+        <p id="modalLevel"></p>
+        <h4>Historia del plato</h4>
+        <p id="modalStory"></p>
+        <h4>Ingredientes</h4>
+        <p id="modalIngredients"></p>
+        <h4>Técnicas utilizadas</h4>
+        <p id="modalTechniques"></p>
+        <h4>Aprendizajes</h4>
+        <p id="modalLearnings"></p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
