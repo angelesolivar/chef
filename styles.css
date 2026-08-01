@@ -167,9 +167,10 @@ h1 {
 .about-media img {
   min-height: 400px;
   object-fit: cover;
-  border-radius: 1.25rem;
-  border: 1px solid var(--border);
-  box-shadow: none;
+  border-radius: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.9);
+  box-shadow: 0 20px 45px rgba(15, 23, 42, 0.12);
+  aspect-ratio: 4 / 5;
 }
 
 .about-content h2,
